@@ -4,8 +4,12 @@
 
 string [] input_arr = new string[4]{"Hello","3r", "H-", "(-" };   массив для обработки
 System.Console.WriteLine($" массив :   ");
-PrintArray(input_arr);                            //печать входного массива
+
+
+PrintArray(input_arr);                                   //печать входного массива                          
 System.Console.WriteLine($" Новый массив :  ");
+
+
 PrintArray(GetNewArr(input_arr));                 // печать получившегося массива 
 
 string [] GetNewArr (string [] input_array)       // Формирует новый массив из элементов удовлетворяющих условию по количеству символов.
