@@ -3,10 +3,16 @@
 коллекциями, лучше обойтись исключительно массивами.
 */
 string [] input_arr = new string[4]{"Hello","3r", "H-", "(-" };
+Main(input_arr);
+
+
+void Main (string [] input_arr)
+{
 System.Console.WriteLine($" массив :   ");
 PrintArray(input_arr);
 System.Console.WriteLine($" Новый массив :  ");
 PrintArray(GetNewArr(input_arr));
+}
 
 string [] GetNewArr (string [] input_array)       // Формирует новый массив
 {
